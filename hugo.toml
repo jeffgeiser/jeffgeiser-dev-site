@@ -1,8 +1,12 @@
-baseURL = "https://jeffgeiser.dev"
+baseurl = "https://jeffgeiser.dev/"
+builddrafts = false
 languageCode = "en-US"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Jeff Geiser"
 title = "Jeff Geiser"
 theme = "hugo-goa"
-author = "Jeff Geiser"
 
 [params]
   author = "Jeff Geiser"
@@ -26,29 +30,35 @@ shipping [Wicklee](https://wicklee.dev), and building
 [params.social]
   github = "jeffgeiser"
   linkedin = "jeffgeiser"
-  twitter = "jeffgeiser"
+  twitter = "jgeiser"
 
 [params.extra]
-  copyright = "© 2026 Jeff Geiser"
-  rss = true
-  highlightjs = true
+copyright = "© 2026 Jeff Geiser"
+poweredby = false
+highlightjs = true
+socialmarkup = true
+displayrssicon = true
 
 [[menu.main]]
-  name = "writing"
-  weight = 100
-  url = "posts/"
+name = "writing"
+weight = 100
+identifier = "posts"
+url = "posts/"
 
 [[menu.main]]
-  name = "projects"
-  weight = 200
-  url = "projects/"
+name = "projects"
+weight = 200
+identifier = "projects"
+url = "projects/"
 
 [[menu.main]]
-  name = "now"
-  weight = 300
-  url = "now/"
+name = "now"
+weight = 300
+identifier = "now"
+url = "now/"
 
 [[menu.main]]
-  name = "about"
-  weight = 400
-  url = "about/"
+name = "about"
+weight = 400
+identifier = "about"
+url = "about/"

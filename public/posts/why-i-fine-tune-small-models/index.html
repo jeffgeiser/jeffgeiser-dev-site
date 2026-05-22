@@ -18,12 +18,11 @@
         <meta name="keywords" content="enterprise AI, local inference, sovereign AI, LLM, fine-tuning, Wicklee, Taarn, compass-md">
 
         <title>
-              Jeff Geiser - Categories 
+              Jeff Geiser - Why I fine-tune small models instead of prompting big ones 
         </title>
 
         <meta name="generator" content="Hugo 0.161.1">
 
-        <link rel="alternate" type="application/rss&#43;xml" href="https://jeffgeiser.dev/categories/index.xml">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
         
@@ -41,20 +40,87 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        <meta name="theme-color" content="#ffffff"><link rel="alternate" type="application/rss+xml" title="Jeff Geiser" href="/categories/index.xml" />
-        <link rel="alternate" type="application/json" title="Jeff Geiser" href="https://jeffgeiser.dev/feed.json" />
-        <link rel="EditURI" type="application/rsd+xml" href="https://jeffgeiser.dev/rsd.xml" /></head>
+        <meta name="theme-color" content="#ffffff"></head>
 
     <body lang="en-US">
         <div class="container my-auto">
 
-<section id="list-pane" class="list">
-  <ul class="list-unstyled">
-    
-  </ul>
+<header class="text-start title">
+  <h1 class="title">Why I fine-tune small models instead of prompting big ones</h1>
+</header>
+
+<section id="category-pane" class="meta">
+  
+  <div class="d-flex flex-column flex-md-row justify-content-between">
+    <h6 class="text-start meta">
+       PUBLISHED ON MAY 22, 2026
+      
+      / 1 MIN READ
+      
+    </h6>
+  </div>
+  
 </section>
 
+<section id="content-pane">
+  <div class="text-justify content">
+    
+    <p>About the ELM work: why bother?
+You can prompt Claude or GPT-4 to generate an account brief. It works.
+Why spend weeks building a fine-tuning pipeline?</p>
+<p>Three reasons.</p>
+<p><strong>Cost at scale.</strong> A frontier API call costs money. Every call. When you&rsquo;re
+generating account briefs for hundreds of accounts before a QBR cycle, that
+adds up fast. A locally-deployed 7B model costs the electricity to run it.
+At our inference setup that&rsquo;s roughly $0.00 per call.</p>
+<p><strong>Latency and availability.</strong> A local model responds in milliseconds with no
+network dependency. No rate limits, no outages, no waiting.</p>
+<p><strong>The narrow task advantage.</strong> A frontier model is optimized to be good at
+everything. A fine-tuned 7B is optimized to be excellent at one thing.
+On the specific task of synthesizing enterprise account data into structured
+JSON briefs across six defined surfaces, I expect the fine-tuned model to
+outperform GPT-4 — not because it&rsquo;s smarter, but because it&rsquo;s been trained
+on exactly this task, with exactly this schema, evaluated against exactly
+these metrics.</p>
+<p>That&rsquo;s the thesis. I&rsquo;m testing it now. The methodology is open at
+<a href="https://github.com/jeffgeiser/elm-research">elm-research</a>.</p>
+
+  </div>
+</section>
+
+<section id="tag-pane" class="meta">
+  
+  <div class="d-flex flex-column flex-md-row justify-content-between">
+    <h6 class="text-end meta">
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
 <section id="menu-pane" class="menu text-center">
+  
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+      
+      
+
+      <li class="menu-item">
+        
+        <a class="menu-item" href="/posts">posts</a>
+        
+      </li>
+
+      
+      
+    </ul>
+  </nav>
   
   <h4 class="text-center mt-3"><a class="menu-item" href="https://jeffgeiser.dev/">home</a></h4>
 </section>
@@ -96,3 +162,4 @@
 </body>
 
 </html>
+

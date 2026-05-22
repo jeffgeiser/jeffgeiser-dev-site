@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Project</title>
-    <link>https://example.org/</link>
-    <description>Recent content on My New Hugo Project</description>
+    <title>Jeff Geiser</title>
+    <link>https://jeffgeiser.dev/</link>
+    <description>Recent content on Jeff Geiser</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jeffgeiser.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I fine-tune small models instead of prompting big ones</title>
+      <link>https://jeffgeiser.dev/posts/why-i-fine-tune-small-models/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://jeffgeiser.dev/posts/why-i-fine-tune-small-models/</guid>
+      <description>&lt;p&gt;About the ELM work: why bother?&#xA;You can prompt Claude or GPT-4 to generate an account brief. It works.&#xA;Why spend weeks building a fine-tuning pipeline?&lt;/p&gt;&#xA;&lt;p&gt;Three reasons.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cost at scale.&lt;/strong&gt; A frontier API call costs money. Every call. When you&amp;rsquo;re&#xA;generating account briefs for hundreds of accounts before a QBR cycle, that&#xA;adds up fast. A locally-deployed 7B model costs the electricity to run it.&#xA;At our inference setup that&amp;rsquo;s roughly $0.00 per call.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://jeffgeiser.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jeffgeiser.dev/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Jeff Geiser — VP, Customer Engineering at &lt;a href=&#34;https://zenlayer.com&#34;&gt;Zenlayer&lt;/a&gt;,&#xA;building in public at the intersection of enterprise AI and sovereign inference.&#xA;Based in Northern Virginia.&lt;/p&gt;&#xA;&lt;p&gt;We work with large companies to deploy training and inference - focused primarily on edge inference.&lt;/p&gt;&#xA;&lt;p&gt;On the side I&amp;rsquo;m building &lt;a href=&#34;https://wicklee.dev&#34;&gt;Wicklee&lt;/a&gt;&#xA;an abservability platform for local ai — watts per&#xA;token, thermal state, routing decisions. &lt;a href=&#34;https://taarn.ai&#34;&gt;Taarn&lt;/a&gt; is the personal&#xA;AI OS I&amp;rsquo;ve always wanted: runs on my Mac Mini, knows my goals, texts me every&#xA;morning, monitors the corners of the internet I care about.&#xA;&lt;a href=&#34;https://github.com/jeffgeiser/compass-md&#34;&gt;compass-md&lt;/a&gt; is the open spec underneath&#xA;both — portable context files any AI tool can read.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Now</title>
+      <link>https://jeffgeiser.dev/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jeffgeiser.dev/now/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Updated May 2026 · &lt;a href=&#34;https://nownownow.com/about&#34;&gt;what is a now page?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;ELM work&lt;/strong&gt; — finishing &lt;code&gt;account-intelligence-7b-v1&lt;/code&gt;. Fine-tuned Qwen2.5-7B&#xA;on a synthetic dataset of 568 examples across six surfaces: meeting prep, QBR,&#xA;handoff, renewal alert, onboarding, escalation triage. LoRA training on DGX&#xA;Spark. Eval harness running DeepEval + LLM-as-judge with 8 locked metrics.&#xA;Q4_K_M GGUF release when it clears eval.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Taarn&lt;/strong&gt; — morning brief agent wired to my live compass directory. Texts me&#xA;at 7am with what matters. Adding the monitor agent next — r/LocalLLaMA, arXiv,&#xA;GitHub repos I track. Building in public at &lt;a href=&#34;https://taarn.ai&#34;&gt;taarn.ai&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://jeffgeiser.dev/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jeffgeiser.dev/projects/</guid>
+      <description>&lt;h3 id=&#34;wicklee&#34;&gt;&lt;a href=&#34;https://wicklee.dev&#34;&gt;Wicklee&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;GPU fleet monitoring for local inference. Tracks tok/W, WES score, thermal&#xA;state, and routing decisions across multi-node setups. The observability layer&#xA;that makes local-first inference trustworthy. Community tier free.&lt;/p&gt;&#xA;&lt;h3 id=&#34;taarn&#34;&gt;&lt;a href=&#34;https://taarn.ai&#34;&gt;Taarn&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Personal AI OS. Sovereign, local-first, runs on your hardware. Knows your goals,&#xA;monitors your world, scales across your whole life — chief of staff, life coach,&#xA;intel analyst, publisher. Built on compass-md. Coming soon.&lt;/p&gt;&#xA;&lt;h3 id=&#34;compass-md&#34;&gt;&lt;a href=&#34;https://github.com/jeffgeiser/compass-md&#34;&gt;compass-md&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Open specification for portable AI context — the files that tell any AI tool who&#xA;you are, how you work, and what you care about. MIT licensed. Works with Claude&#xA;Code, Cursor, local models, anything that reads files.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

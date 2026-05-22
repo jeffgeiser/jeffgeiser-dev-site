@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jeff Geiser</title>
+    <link>https://jeffgeiser.dev/posts/</link>
+    <description>Recent content in Posts on Jeff Geiser</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jeffgeiser.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I fine-tune small models instead of prompting big ones</title>
+      <link>https://jeffgeiser.dev/posts/why-i-fine-tune-small-models/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://jeffgeiser.dev/posts/why-i-fine-tune-small-models/</guid>
+      <description>&lt;p&gt;About the ELM work: why bother?&#xA;You can prompt Claude or GPT-4 to generate an account brief. It works.&#xA;Why spend weeks building a fine-tuning pipeline?&lt;/p&gt;&#xA;&lt;p&gt;Three reasons.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cost at scale.&lt;/strong&gt; A frontier API call costs money. Every call. When you&amp;rsquo;re&#xA;generating account briefs for hundreds of accounts before a QBR cycle, that&#xA;adds up fast. A locally-deployed 7B model costs the electricity to run it.&#xA;At our inference setup that&amp;rsquo;s roughly $0.00 per call.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
