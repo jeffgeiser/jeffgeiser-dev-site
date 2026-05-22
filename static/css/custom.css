@@ -25,3 +25,10 @@ h1, h2, h3, h4 {
 .site-title a {
   color: #333333;
 }
+a {
+  color: #4a9aba;
+}
+
+a:hover {
+  color: #357a96;
+}
