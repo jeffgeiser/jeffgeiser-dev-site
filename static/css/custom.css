@@ -6,29 +6,37 @@ h1, h2, h3, h4 {
   color: #444444;
 }
 
-.social a {
-  color: #555555;
+a,
+a:hover,
+a:visited,
+a:link {
+  color: #4a9aba !important;
+  text-decoration: none;
 }
 
-.social a:hover {
-  color: #222222;
-}
-
-#nav a {
-  color: #555555;
-}
-
-#nav a:hover {
-  color: #222222;
-}
-
-.site-title a {
-  color: #333333;
-}
-a {
+.content a,
+.content a:hover,
+.content a:visited,
+.content a:link {
   color: #4a9aba !important;
 }
 
-a:hover {
-  color: #357a96 !important;
+.social a {
+  color: #555555 !important;
+}
+
+.social a:hover {
+  color: #222222 !important;
+}
+
+#nav a {
+  color: #555555 !important;
+}
+
+#nav a:hover {
+  color: #222222 !important;
+}
+
+.site-title a {
+  color: #333333 !important;
 }
