@@ -1,0 +1,27 @@
+body {
+  color: #555555;
+}
+
+h1, h2, h3, h4 {
+  color: #444444;
+}
+
+.social a {
+  color: #555555;
+}
+
+.social a:hover {
+  color: #222222;
+}
+
+#nav a {
+  color: #555555;
+}
+
+#nav a:hover {
+  color: #222222;
+}
+
+.site-title a {
+  color: #333333;
+}

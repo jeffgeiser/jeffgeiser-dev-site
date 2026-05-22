@@ -22,43 +22,42 @@ shipping [Wicklee](https://wicklee.dev), and building
 """
   authorimage = "headshot.jpg"
   dateformat = "Jan 2, 2006"
-
-[params.meta]
-  description = "Jeff Geiser — AI Director, builder, writing about enterprise AI and sovereign inference."
-  keywords = "enterprise AI, local inference, sovereign AI, LLM, fine-tuning, Wicklee, Taarn, compass-md"
-
-[params.social]
   github = "jeffgeiser"
   linkedin = "jeffgeiser"
   twitter = "jgeiser"
+  custom_css = ["css/custom.css"]
+
+[params.meta]
+  description = "Jeff Geiser — VP Customer Engineering at Zenlayer, builder, writing about enterprise AI and sovereign inference."
+  keywords = "enterprise AI, local inference, sovereign AI, LLM, fine-tuning, Wicklee, Taarn, compass-md"
 
 [params.extra]
-copyright = "© 2026 Jeff Geiser"
-poweredby = false
-highlightjs = true
-socialmarkup = true
-displayrssicon = true
+  copyright = "© 2026 Jeff Geiser"
+  poweredby = false
+  highlightjs = true
+  socialmarkup = true
+  displayrssicon = true
 
 [[menu.main]]
-name = "writing"
-weight = 100
-identifier = "posts"
-url = "posts/"
+  name = "writing"
+  weight = 100
+  identifier = "posts"
+  url = "posts/"
 
 [[menu.main]]
-name = "projects"
-weight = 200
-identifier = "projects"
-url = "projects/"
+  name = "projects"
+  weight = 200
+  identifier = "projects"
+  url = "projects/"
 
 [[menu.main]]
-name = "now"
-weight = 300
-identifier = "now"
-url = "now/"
+  name = "now"
+  weight = 300
+  identifier = "now"
+  url = "now/"
 
 [[menu.main]]
-name = "about"
-weight = 400
-identifier = "about"
-url = "about/"
+  name = "about"
+  weight = 400
+  identifier = "about"
+  url = "about/"
