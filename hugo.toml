@@ -13,7 +13,7 @@ theme = "hugo-goa"
   intro = "VP at Zenlayer. Shipping projects in the open."
   description = """
 I work at the intersection of enterprise AI and local, personal setups —
-help customers with large scale training and inference at [Zenlayer](https://zenlayer.com). A big believer in open source and local models.
+helping customers with large-scale training and inference at [Zenlayer](https://zenlayer.com). Big believer in open source and local models.
 
 Based in Virginia. Currently: fine-tuning a 7B enterprise language model,
 shipping [Wicklee](https://wicklee.dev), and building
