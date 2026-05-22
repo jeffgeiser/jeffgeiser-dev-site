@@ -10,7 +10,7 @@ theme = "hugo-goa"
 
 [params]
   author = "Jeff Geiser"
-  intro = "VP Customer Engineer at Zenlayer. Building in public."
+  intro = "VP Customer Engineering at Zenlayer. Building in public."
   description = """
 I work at the intersection of enterprise AI and sovereign inference —
 running production agent systems at [Zenlayer](https://zenlayer.com)
