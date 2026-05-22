@@ -26,9 +26,9 @@ h1, h2, h3, h4 {
   color: #333333;
 }
 a {
-  color: #4a9aba;
+  color: #4a9aba !important;
 }
 
 a:hover {
-  color: #357a96;
+  color: #357a96 !important;
 }
