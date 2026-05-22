@@ -27,6 +27,11 @@ shipping [Wicklee](https://wicklee.dev), and building
   twitter = "jgeiser"
   custom_css = ["css/custom.css"]
 
+[params.social]
+  github = "jeffgeiser"
+  linkedin = "jeffgeiser"
+  twitter = "jgeiser"
+
 [params.meta]
   description = "Jeff Geiser — VP Customer Engineering at Zenlayer, builder, writing about enterprise AI and sovereign inference."
   keywords = "enterprise AI, local inference, sovereign AI, LLM, fine-tuning, Wicklee, Taarn, compass-md"
