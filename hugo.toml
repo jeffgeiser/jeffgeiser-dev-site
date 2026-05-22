@@ -1,4 +1,54 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'hugo-goa'
+baseURL = "https://jeffgeiser.dev"
+languageCode = "en-US"
+title = "Jeff Geiser"
+theme = "hugo-goa"
+author = "Jeff Geiser"
+
+[params]
+  author = "Jeff Geiser"
+  intro = "VP Customer Engineer at Zenlayer. Building in public."
+  description = """
+I work at the intersection of enterprise AI and sovereign inference —
+running production agent systems at [Zenlayer](https://zenlayer.com)
+and building the open-source tooling I wish existed.
+
+Based in Virginia. Currently: fine-tuning a 7B enterprise language model,
+shipping [Wicklee](https://wicklee.dev), and building
+[Taarn](https://taarn.ai) — a personal AI OS that runs on your hardware.
+"""
+  authorimage = "headshot.jpg"
+  dateformat = "Jan 2, 2006"
+
+[params.meta]
+  description = "Jeff Geiser — AI Director, builder, writing about enterprise AI and sovereign inference."
+  keywords = "enterprise AI, local inference, sovereign AI, LLM, fine-tuning, Wicklee, Taarn, compass-md"
+
+[params.social]
+  github = "jeffgeiser"
+  linkedin = "jeffgeiser"
+  twitter = "jeffgeiser"
+
+[params.extra]
+  copyright = "© 2026 Jeff Geiser"
+  rss = true
+  highlightjs = true
+
+[[menu.main]]
+  name = "writing"
+  weight = 100
+  url = "posts/"
+
+[[menu.main]]
+  name = "projects"
+  weight = 200
+  url = "projects/"
+
+[[menu.main]]
+  name = "now"
+  weight = 300
+  url = "now/"
+
+[[menu.main]]
+  name = "about"
+  weight = 400
+  url = "about/"
