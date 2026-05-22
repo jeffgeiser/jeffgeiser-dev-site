@@ -17,19 +17,21 @@ helping customers with large-scale training and inference at [Zenlayer](https://
 
 Based in Virginia. Currently: fine-tuning a 7B enterprise language model,
 shipping [Wicklee](https://wicklee.dev), and building
-[Taarn](https://taarn.ai) — a personal AI OS that runs on your hardware.
+[Taarn](https://taarn.ai) — a personal AI OS that runs on your hardware. Run and stuff in spare time!
 """
   authorimage = "headshot.jpg"
   dateformat = "Jan 2, 2006"
   github = "jeffgeiser"
   linkedin = "jeffgeiser"
   twitter = "jgeiser"
+  strava = "1918017"
   custom_css = ["css/custom.css"]
 
 [params.social]
   github = "jeffgeiser"
   linkedin = "jeffgeiser"
   twitter = "jgeiser"
+  strava = "1918017"
 
 [params.meta]
   description = "Jeff Geiser — VP Customer Engineering at Zenlayer, builder, writing about enterprise AI and sovereign inference."
