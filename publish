@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -e
+
+cd "$(dirname "$0")"
+
+if [[ -z "$(git status --porcelain)" ]]; then
+  echo "Nothing to commit — working tree is clean."
+  exit 0
+fi
+
+echo "Changes to be published:"
+echo "------------------------"
+git status --short
+echo
+
+read -r -p "Commit message: " msg
+if [[ -z "$msg" ]]; then
+  msg="Update site $(date '+%Y-%m-%d %H:%M')"
+  echo "(no message given — using: $msg)"
+fi
+
+git add -A
+git commit -m "$msg"
+git push origin "$(git rev-parse --abbrev-ref HEAD)"
+
+echo
+echo "Published."
