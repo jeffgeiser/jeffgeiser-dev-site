@@ -24,4 +24,5 @@ triage. LoRA training on DGX Spark. Eval harness running DeepEval +
 LLM-as-judge with 8 locked metrics. Q4_K_M GGUF release when it clears eval.
 
 **Running** — base building. No race on the calendar yet. Keeping it
-consistent.
+consistent. Following along on
+[Strava](https://www.strava.com/athletes/1918017).

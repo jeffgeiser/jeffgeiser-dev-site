@@ -16,7 +16,7 @@ Infrastructure for AI you run yourself — observability, cost, and
 orchestration for local and distributed inference.
 
 Day job: helping large customers deploy edge inference at
-[Zenlayer](https://zenlayer.com). Side project turned main bet:
+[Zenlayer](https://zenlayer.com). Side project:
 [Wicklee](https://wicklee.dev) — hardware-first observability and cost
 governance for self-hosted models, the tool that measures what your own
 GPUs actually cost. I also write about the layer above that: how systems
