@@ -12,12 +12,19 @@ theme = "hugo-goa"
   author = "Jeff Geiser"
   intro = "VP at Zenlayer. Shipping projects in the open."
   description = """
-I work at the intersection of enterprise AI and local, personal setups —
-helping customers with edge compute, networking and inference at [Zenlayer](https://zenlayer.com). Big believer in open source and local models.
+Infrastructure for AI you run yourself — observability, cost, and
+orchestration for local and distributed inference.
 
-Based in Virginia. Currently: fine-tuning a 7B enterprise language model,
-shipping [Wicklee](https://wicklee.dev), and building
-[Taarn](https://taarn.ai) — a personal AI OS that runs on your hardware. Run and stuff in spare time!
+Day job: helping large customers deploy edge inference at
+[Zenlayer](https://zenlayer.com). Side project turned main bet:
+[Wicklee](https://wicklee.dev) — hardware-first observability and cost
+governance for self-hosted models, the tool that measures what your own
+GPUs actually cost. I also write about the layer above that: how systems
+decide where inference should run, and what a control plane for that
+decision would need to look like.
+
+Based in Virginia. Currently fine-tuning a small enterprise model as a
+personal research project.
 """
   authorimage = "headshot.jpg"
   dateformat = "Jan 2, 2006"
@@ -34,8 +41,8 @@ shipping [Wicklee](https://wicklee.dev), and building
   strava = "1918017"
 
 [params.meta]
-  description = "Jeff Geiser — VP Customer Engineering at Zenlayer, builder, writing about enterprise AI and sovereign inference."
-  keywords = "enterprise AI, local inference, sovereign AI, LLM, fine-tuning, Wicklee, Taarn, compass-md"
+  description = "Jeff Geiser — VP Customer Engineering at Zenlayer, building Wicklee (observability and cost governance for self-hosted inference) and writing about the inference-network control plane."
+  keywords = "self-hosted inference, GPU observability, inference cost, Wicklee, WES, distributed inference, inference control plane, edge AI, sovereign AI"
 
 [params.extra]
   copyright = "© 2026 Jeff Geiser"
