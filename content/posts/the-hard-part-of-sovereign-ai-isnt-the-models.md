@@ -14,7 +14,7 @@ tags: ["sovereign-ai", "compound-ai", "local-inference", "operator-model", "wick
 
 Two shifts are happening.
 
-First, we stopped shipping a single model. If you're building anything serious now, you're composing. A small classifier to triage the request, a retrieval step, a generator, a verifier to catch the generator. Three to five specialized models wired into a pipeline, each doing one job. The research crowd named it compound AI. A composed pipeline of small models beats one big model on accuracy and cost, as long as you keep the coordination overhead in check.
+First, we stopped shipping a single model. If you're building anything serious now, you're composing. A small classifier to triage the request, a retrieval step, a generator, a verifier to catch the generator. Three to five specialized models wired into a pipeline, each doing one job. The research crowd named it compound AI. A composed pipeline of small models beats one big model on accuracy and cost.. as long as you keep the coordination overhead in check.
 
 Second, the models came home. The majority of enterprise inference now runs on-prem or on-device, up from a sliver two years ago, and most organizations have pulled at least some workloads back from the cloud or are planning to. The reasons are boring and durable: local inference is multiples cheaper per token once you amortize the hardware, the box pays for itself in weeks, and plenty of buyers legally can't put their data on someone else's machine anyway.
 
@@ -30,7 +30,7 @@ The component models are not the hard part. They're commodity. Llama 3.2 3B is t
 
 You can watch the field rediscover this in real time. The compound-AI papers that matter this year aren't about the models. They're about serving: SLO-aware query planners, deployment across heterogeneous clusters, keeping coordination overhead under the threshold where the pipeline stops being worth it. The community figured out how to build compound systems and is now finding out that running them efficiently on real hardware is a separate, unsolved problem.
 
-There's an interesting layer here. It's three jobs the cloud used to do for you and now doesn't:
+There's an interesting layer here.. it's three jobs the cloud used to do for you and now doesn't:
 
 - **See it.** Per node, per stage: thermal state, VRAM pressure, which model is resident, how efficient it is right now. Not raw metrics. A decision-ready read of whether this node is a good place to run this stage at this moment.
 - **Cost it.** Real cost per token, per model, per stage, including the local-versus-frontier tradeoff, in watts and dollars, on your hardware. The thing the cloud bill flattened into one opaque line.
@@ -38,7 +38,7 @@ There's an interesting layer here. It's three jobs the cloud used to do for you 
 
 None of that is the model. All of it is the difference between a compound system that works on your metal and one that quietly costs more than the cloud you left.
 
-The unit that matters here isn't tokens per second, it's tokens per watt. On someone else's hardware, efficiency is their problem. On yours it's the entire economic case. It's what you get if you run the hardware well, and roughly the inverse if you don't. Most of the orgs repatriating right now are going to learn which, the expensive way, unless they are directly measuring it.
+The unit that matters here isn't tokens per second, it's tokens per watt. On someone else's hardware, efficiency is their problem. On yours it's the entire economic case. It's what you get if you run the hardware well, and roughly the inverse if you don't. Most of the orgs repatriating right now are going to learn which, the expensive way.. unless they are directly measuring it..
 
 Wicklee, observability for sovereign ai, does the first two jobs, see it and cost it, on production fleets. The routing piece, the contract for how a stage asks a node "are you a good fit for this right now," is what I've been writing about as the decision loop. And the small expert models I build are components in exactly this kind of pipeline, built to run efficiently on owned hardware and emit a signal.
 
