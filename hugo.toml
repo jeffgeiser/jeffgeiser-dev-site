@@ -10,21 +10,11 @@ theme = "hugo-goa"
 
 [params]
   author = "Jeff Geiser"
-  intro = "VP at Zenlayer. Shipping projects in the open."
+  intro = "VP at Zenlayer"
   description = """
-Infrastructure for AI you run yourself — observability, cost, and
-orchestration for local and distributed inference.
+I focus on sovereign AI: measure AI running on hardware you own, route across it, and then prove the data stayed in the stack..
 
-Day job: helping large customers deploy edge inference at
-[Zenlayer](https://zenlayer.com). Side project:
-[Wicklee](https://wicklee.dev) — hardware-first observability and cost
-governance for self-hosted models, the tool that measures what your own
-GPUs actually cost. I also write about the layer above that: how systems
-decide where inference should run, and what a control plane for that
-decision would need to look like.
-
-Based in Virginia. Currently fine-tuning a small enterprise model as a
-personal research project.
+My main project is [Wicklee](https://wicklee.dev/) — hardware-first observability and cost governance for self-hosted, sovereign inference. Alongside it, [bordercheck](https://github.com/jeffgeiser/bordercheck) tests whether your data actually stays inside the border you drew.
 """
   authorimage = "headshot.jpg"
   dateformat = "Jan 2, 2006"
