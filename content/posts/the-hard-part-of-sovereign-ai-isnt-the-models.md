@@ -2,6 +2,7 @@
 title: "The Hard Part of Sovereign AI Isn't the Models"
 date: 2026-10-06
 draft: false
+toc: false
 description: "Everyone's composing small specialized models now, and everyone's moving them onto hardware they own. Almost nobody is measuring what happens when those two collide."
 tags: ["sovereign-ai", "compound-ai", "local-inference", "operator-model", "wicklee"]
 ---
