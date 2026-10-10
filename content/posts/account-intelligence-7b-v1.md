@@ -13,7 +13,7 @@ tags: ["elm", "fine-tuning", "small-models", "local-inference", "sovereign-ai"]
 
 ---
 
-I fine-tuned a 7B model to synthesize structured account intelligence briefs from raw enterprise data. It's up on Hugging Face now: [jgeiser/account-intelligence-7b-v1](https://huggingface.co/jgeiser/account-intelligence-7b-v1).
+The model's up on Hugging Face now: [jgeiser/account-intelligence-7b-v1](https://huggingface.co/jgeiser/account-intelligence-7b-v1).
 
 You hand it a bundle of account signals (support tickets, usage metrics, contract terms, stakeholder notes, etc..) and it gives you back a structured JSON brief across six surfaces: meeting prep, QBR pack, handoff, renewal alert, onboarding, and escalation context. Nobody is supposed to read the output like an essay.. it's JSON, and downstream systems consume it directly.
 
