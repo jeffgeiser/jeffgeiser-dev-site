@@ -17,10 +17,10 @@ for sovereign AI.
 
 **Writing** — building a body of work on the operator layer of sovereign AI:
 compound AI on hardware you own, routing on silicon state, and proving your
-stack stayed sovereign. [The Layer Below MCP](/posts/the-layer-below-mcp/) is
-live; [The Hard Part of Sovereign
-AI](/posts/the-hard-part-of-sovereign-ai-isnt-the-models/) and "Test the Stack,
-Not the Diagram" are next, with two deeper pieces in draft.
+stack stayed sovereign. [The Layer Below MCP](/posts/the-layer-below-mcp/),
+[The Hard Part of Sovereign AI](/posts/the-hard-part-of-sovereign-ai-isnt-the-models/),
+and [Test the Stack, Not the Diagram](/posts/test-the-stack-not-the-diagram/) are
+live, with two deeper pieces in draft.
 
 **ELM work** — finishing a fine-tuned Qwen2.5-7B (568 synthetic examples across
 six business surfaces, LoRA on DGX Spark, evaluated with DeepEval and

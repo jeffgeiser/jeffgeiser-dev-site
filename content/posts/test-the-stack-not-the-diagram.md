@@ -1,7 +1,7 @@
 ---
 title: "Test the Stack, Not the Diagram"
-date: 2026-10-06
-draft: true
+date: 2026-10-12
+draft: false
 description: "Data in an AI stack doesn't live in one place. It sprawls across caches, logs, vector stores, and traces. Residency is a surface, and you can't prove a surface from a diagram."
 tags: ["sovereign-ai", "data-residency", "compliance", "bordercheck", "ai-governance"]
 ---
