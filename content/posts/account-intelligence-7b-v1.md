@@ -1,7 +1,7 @@
 ---
 title: "account-intelligence-7b-v1: A Small Model That Writes Account Briefs"
-date: 2026-10-10
-draft: true
+date: 2026-10-15
+draft: false
 toc: false
 description: "I fine-tuned a 7B model to turn raw account data into structured JSON briefs.. it's up on Hugging Face, here's how it went and what I still haven't measured."
 tags: ["elm", "fine-tuning", "small-models", "local-inference", "sovereign-ai"]
